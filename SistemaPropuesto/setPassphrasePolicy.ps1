@@ -14,7 +14,7 @@ net accounts /maxpwage:30
 # Tiempo mínimo entre cambio de contraseñas. (Días)
 net accounts /minpwage:5
 # Longitud mínima de la contraseña.
-net accounts /minpwlen:8
+net accounts /minpwlen:10
 
 # Mostrar configuración.
 net accounts 
