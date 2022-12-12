@@ -5,12 +5,14 @@
         <xs:element name="Departamento" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
+              <xs:element name="Nombre" minOccurs="1" maxOccurs="1"/>
               <xs:element name="Empleados">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element name="Empleado" maxOccurs="unbounded" minOccurs="0">
                       <xs:complexType>
                         <xs:sequence>
+                          <xs:element type="xs:string" name="NIF"/>
                           <xs:element type="xs:string" name="Nombre"/>
                           <xs:element type="xs:string" name="Apellido1"/>
                           <xs:element type="xs:string" name="Apellido2"/>
@@ -21,14 +23,12 @@
                           <xs:element type="xs:byte" name="Grupo_Cotización"/>
                           <xs:element type="xs:string" name="email"/>
                         </xs:sequence>
-                        <xs:attribute type="xs:string" name="NIF" use="optional"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:string" name="Nombre" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

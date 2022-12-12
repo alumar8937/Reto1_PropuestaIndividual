@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE Departamentos SYSTEM "Departamentos.dtd">
-
+<!-- <!DOCTYPE Departamentos SYSTEM "Departamentos.dtd"> -->
 <!-- <Departamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Departamentos.xsd"> -->
-<Departamentos>
-    <Departamento Nombre="COMERCIAL">
+
+<Departamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Departamentos.xsd">
+    <Departamento>
+        <Nombre>COMERCIAL</Nombre>
         <Empleados>
-            <Empleado NIF="12345713-J">
+            <Empleado>
+                <NIF>12345713-J</NIF>
                 <Nombre>SUSANA</Nombre>
                 <Apellido1>ALABAU</Apellido1>
                 <Apellido2>SANCHO</Apellido2>
@@ -17,7 +19,8 @@
                 <Grupo_Cotización>5</Grupo_Cotización>
                 <email>salabaus@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345704-A">
+            <Empleado>
+                <NIF>12345704-A</NIF>
                 <Nombre>LUIS</Nombre>
                 <Apellido1>DEL TORO</Apellido1>
                 <Apellido2>GIL</Apellido2>
@@ -28,7 +31,8 @@
                 <Grupo_Cotización>4</Grupo_Cotización>
                 <email>ldel_torog@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345709-F">
+            <Empleado>
+                <NIF>12345709-F</NIF>
                 <Nombre>JUDAS</Nombre>
                 <Apellido1>ISCARIOTE</Apellido1>
                 <Apellido2>IMAN</Apellido2>
@@ -39,7 +43,8 @@
                 <Grupo_Cotización>4</Grupo_Cotización>
                 <email>jiscariotei@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345710-G">
+            <Empleado>
+                <NIF>12345710-G</NIF>
                 <Nombre>TORIVIO</Nombre>
                 <Apellido1>MARTINEZ</Apellido1>
                 <Apellido2>INIESTA</Apellido2>
@@ -50,7 +55,8 @@
                 <Grupo_Cotización>5</Grupo_Cotización>
                 <email>tmartinezi@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345702-Y">
+            <Empleado>
+                <NIF>12345702-Y</NIF>
                 <Nombre>LAURA</Nombre>
                 <Apellido1>MOLL</Apellido1>
                 <Apellido2>GIL</Apellido2>
@@ -61,7 +67,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>lmollg@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345678-A">
+            <Empleado>
+                <NIF>12345678-A</NIF>
                 <Nombre>EVA</Nombre>
                 <Apellido1>PELLICER</Apellido1>
                 <Apellido2>JUAN</Apellido2>
@@ -72,7 +79,8 @@
                 <Grupo_Cotización>4</Grupo_Cotización>
                 <email>epellicerj@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345705-B">
+            <Empleado>
+                <NIF>12345705-B</NIF>
                 <Nombre>PEDRO</Nombre>
                 <Apellido1>RAMIRES</Apellido1>
                 <Apellido2>TORRES</Apellido2>
@@ -83,7 +91,8 @@
                 <Grupo_Cotización>4</Grupo_Cotización>
                 <email>pramirest@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345706-C">
+            <Empleado>
+                <NIF>12345706-C</NIF>
                 <Nombre>LUCIA</Nombre>
                 <Apellido1>VILA</Apellido1>
                 <Apellido2>NOVA</Apellido2>
@@ -96,9 +105,11 @@
             </Empleado>
         </Empleados>
     </Departamento>
-    <Departamento Nombre="COMPTABILITAT">
+    <Departamento>
+        <Nombre>COMPATIBILITAT</Nombre>
         <Empleados>
-            <Empleado NIF="12345680-C">
+            <Empleado>
+                <NIF>12345680-C</NIF>
                 <Nombre>JOHANN</Nombre>
                 <Apellido1>AGUILAR</Apellido1>
                 <Apellido2>ALBA</Apellido2>
@@ -109,7 +120,8 @@
                 <Grupo_Cotización>4</Grupo_Cotización>
                 <email>jaguilara@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345700-W">
+            <Empleado>
+                <NIF>12345700-W</NIF>
                 <Nombre>FRANCISCO</Nombre>
                 <Apellido1>ANA</Apellido1>
                 <Apellido2>CLETO</Apellido2>
@@ -120,7 +132,8 @@
                 <Grupo_Cotización>3</Grupo_Cotización>
                 <email>fanac@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345679-B">
+            <Empleado>
+                <NIF>12345679-B</NIF>
                 <Nombre>RODRIGO</Nombre>
                 <Apellido1>GALLEGO</Apellido1>
                 <Apellido2>CHAVES</Apellido2>
@@ -131,7 +144,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>rgallegoc@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345681-D">
+            <Empleado>
+                <NIF>12345681-D</NIF>
                 <Nombre>PEPE</Nombre>
                 <Apellido1>SANCHO</Apellido1>
                 <Apellido2>CARVALHO</Apellido2>
@@ -144,9 +158,11 @@
             </Empleado>
         </Empleados>
     </Departamento>
-    <Departamento Nombre="INFORMÀTICA">
+    <Departamento>
+        <Nombre>INFORMÀTICA</Nombre>
         <Empleados>
-            <Empleado NIF="12345707-D">
+            <Empleado>
+                <NIF>12345707-D</NIF>
                 <Nombre>ANDRES</Nombre>
                 <Apellido1>BASE</Apellido1>
                 <Apellido2>NOVA</Apellido2>
@@ -157,7 +173,8 @@
                 <Grupo_Cotización>5</Grupo_Cotización>
                 <email>abasen@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345701-X">
+            <Empleado>
+                <NIF>12345701-X</NIF>
                 <Nombre>MIGUEL</Nombre>
                 <Apellido1>CID</Apellido1>
                 <Apellido2>CABANES</Apellido2>
@@ -168,7 +185,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>mcidc@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345684-G">
+            <Empleado>
+                <NIF>12345684-G</NIF>
                 <Nombre>FRANCISCO</Nombre>
                 <Apellido1>COELLO</Apellido1>
                 <Apellido2>ALABAU</Apellido2>
@@ -179,7 +197,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>fcoelloa@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345683-F">
+            <Empleado>
+                <NIF>12345683-F</NIF>
                 <Nombre>ISABEL</Nombre>
                 <Apellido1>RUIZ</Apellido1>
                 <Apellido2>MONCHO</Apellido2>
@@ -190,7 +209,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>iruizm@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345696-S">
+            <Empleado>
+                <NIF>12345696-S</NIF>
                 <Nombre>ALBERTO</Nombre>
                 <Apellido1>SACA</Apellido1>
                 <Apellido2>RINO</Apellido2>
@@ -201,7 +221,8 @@
                 <Grupo_Cotización>1</Grupo_Cotización>
                 <email>asacar@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345715-L">
+            <Empleado>
+                <NIF>12345715-L</NIF>
                 <Nombre>PIEDAD</Nombre>
                 <Apellido1>VALENCIA</Apellido1>
                 <Apellido2>RUIZ</Apellido2>
@@ -212,7 +233,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>pvalenciar@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345682-E">
+            <Empleado>
+                <NIF>12345682-E</NIF>
                 <Nombre>SARA</Nombre>
                 <Apellido1>ZAMBUJO</Apellido1>
                 <Apellido2>CAMPOS</Apellido2>
@@ -225,9 +247,11 @@
             </Empleado>
         </Empleados>
     </Departamento>
-    <Departamento Nombre="PERSONAL">
+    <Departamento>
+        <Nombre>PERSONAL</Nombre>
         <Empleados>
-            <Empleado NIF="12345717-N">
+            <Empleado>
+                <NIF>12345717-N</NIF>
                 <Nombre>JAVIER</Nombre>
                 <Apellido1>ARIAS</Apellido1>
                 <Apellido2>PUJOL</Apellido2>
@@ -238,7 +262,8 @@
                 <Grupo_Cotización>7</Grupo_Cotización>
                 <email>jariasp@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345699-V">
+            <Empleado>
+                <NIF>12345699-V</NIF>
                 <Nombre>CARLOS</Nombre>
                 <Apellido1>BENITO</Apellido1>
                 <Apellido2>BONIATO</Apellido2>
@@ -249,7 +274,8 @@
                 <Grupo_Cotización>3</Grupo_Cotización>
                 <email>cbenitob@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345708-E">
+            <Empleado>
+                <NIF>12345708-E</NIF>
                 <Nombre>JOSE</Nombre>
                 <Apellido1>CALASANZ</Apellido1>
                 <Apellido2>MATEO</Apellido2>
@@ -260,7 +286,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>jcalasanzm@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345697-T">
+            <Empleado>
+                <NIF>12345697-T</NIF>
                 <Nombre>MARTA</Nombre>
                 <Apellido1>CAR</Apellido1>
                 <Apellido2>PANTA</Apellido2>
@@ -271,7 +298,8 @@
                 <Grupo_Cotización>2</Grupo_Cotización>
                 <email>mcarp@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345714-K">
+            <Empleado>
+                <NIF>12345714-K</NIF>
                 <Nombre>PEDRO</Nombre>
                 <Apellido1>GOMIS</Apellido1>
                 <Apellido2>ZAMBUJO</Apellido2>
@@ -282,7 +310,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>pgomisz@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345711-H">
+            <Empleado>
+                <NIF>12345711-H</NIF>
                 <Nombre>PEDRO</Nombre>
                 <Apellido1>MESI</Apellido1>
                 <Apellido2>SUAREZ</Apellido2>
@@ -293,7 +322,8 @@
                 <Grupo_Cotización>5</Grupo_Cotización>
                 <email>pmesis@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345712-I">
+            <Empleado>
+                <NIF>12345712-I</NIF>
                 <Nombre>LUIS</Nombre>
                 <Apellido1>NAVARRO</Apellido1>
                 <Apellido2>RUIZ</Apellido2>
@@ -304,7 +334,8 @@
                 <Grupo_Cotización>6</Grupo_Cotización>
                 <email>lnavarror@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345698-U">
+            <Empleado>
+                <NIF>12345698-U</NIF>
                 <Nombre>AMELIE</Nombre>
                 <Apellido1>TRIBU</Apellido1>
                 <Apellido2>LETE</Apellido2>
@@ -315,7 +346,8 @@
                 <Grupo_Cotización>2</Grupo_Cotización>
                 <email>atribul@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345716-M">
+            <Empleado>
+                <NIF>12345716-M</NIF>
                 <Nombre>MANUEL</Nombre>
                 <Apellido1>VARGAS</Apellido1>
                 <Apellido2>COELLO</Apellido2>
@@ -326,7 +358,8 @@
                 <Grupo_Cotización>7</Grupo_Cotización>
                 <email>mvargasc@empresa3.com</email>
             </Empleado>
-            <Empleado NIF="12345703-Z">
+            <Empleado>
+                <NIF>12345703-Z</NIF>
                 <Nombre>PEPE</Nombre>
                 <Apellido1>VARGAS</Apellido1>
                 <Apellido2>VARGAS</Apellido2>
